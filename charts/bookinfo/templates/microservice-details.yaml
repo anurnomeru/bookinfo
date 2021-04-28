@@ -35,3 +35,9 @@ spec:
         imagePullPolicy: Always
         ports:
         - containerPort: 9080
+      containers:
+      - name: detailssss
+        image: codingcorp-docker.pkg.coding.net/nocalhost/bookinfo/details
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 9080
